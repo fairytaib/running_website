@@ -4,12 +4,21 @@
     box-sizing: border-box;
 }
 
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
 header{
     background-color: rgb(245, 164, 52);
 }
 
 main{
     background-color: aqua;
+    flex: auto;
+
 }
 
 footer{
